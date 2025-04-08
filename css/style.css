@@ -15,7 +15,7 @@
     --borda-escura: #70441f;
 
     --texto-escuro: #161616;
-    --texto-claro: #c8d4db;
+    --texto-claro: #000000;
     --texto-branco: #ecf8ff;
     --texto-hover: #a15221;
     --texto-opaco: #fbfbfb;
@@ -173,4 +173,14 @@ a{
 .nav-menu li:hover>a i {
     color: var(--texto-claro);
     font-weight: 600;
+}
+/* hero */
+#hero{
+width: 100%;
+height: 100vh; /* VIEW PORT HEIGHT */
+background: url(/img/fundo\ site.webp);
+background-size: cover;
+position: relative;
+
+
 }
