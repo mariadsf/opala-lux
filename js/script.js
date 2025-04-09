@@ -43,7 +43,16 @@ on('click', '.mobile-nav-toggle', function() {
     this.classList.toggle('bi-x')
 })
 
+// efeito de digitação
+const typed=select('.typed');
+if(typed){
+  let typed_strings = typed.getAttribute('data-typed-items')
+  typed_strings = typed_strings.split(',')
 
+  new Typed('.typed', {
+    strings: typed_strings,
+  })
+}
 
 
 })()
