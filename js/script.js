@@ -54,10 +54,10 @@ if(typed){
     loop:true,
     typeSpeed: 100,//velocidade digitação
   backSpeed: 50,//velocidade em apagar
-  backDelay: 1000,
+  backDelay: 1000,//tempo de espera
   
   })
 }
-
+new PureCounter();
 
 })()
