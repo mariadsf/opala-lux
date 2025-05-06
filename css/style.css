@@ -389,26 +389,33 @@ font-weight: 800;
     display: block;
     background: none;
     border-radius: 0;
+ 
 }
 .skills .progress .skill{
     padding: 0;
     margin: 0 0 5px 0;
     text-transform: uppercase;
     display: block;
-    color: var(--section-clara);
+    color: var(--background-color);
     font-weight: 800;
     font-size: 16px;
 }
 .skills .progress .skill .val{
     font-style:normal ;
     float: right;
-color: #ecf8ff;
+color: #f1f9f0;
 font-weight: 800;
 font-size: 16px;
 }
 
 .skills .progress-bar-bg{
-    background: #ededee;
+    background: #fefffe;
     height: 10px;
+}
+.skills .progress-bar {
+height: 10px;
+background: #81dc4c;
+transition: 5s;
+width: 1px;
 }
 
